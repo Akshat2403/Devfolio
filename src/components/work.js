@@ -6,7 +6,7 @@ const Work = ({ ref }) => {
     {
       name: "PassPortal",
       organisation: "Alcheringa IIT Guwahati",
-      link: "https://card.alcehringa.in",
+      link: "https://card.alcheringa.in",
       time: "2023",
     },
     {
