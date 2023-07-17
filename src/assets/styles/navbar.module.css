@@ -1,0 +1,26 @@
+nav{
+    font-size: calc(0.8rem +  1vw);
+    width: 100%;
+    padding: 4% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 1;
+}
+section{
+    display: flex;
+    gap: 5vw;
+    z-index: 1;
+}
+.icon{
+    font-size: calc(1.2rem +  1vw);
+    z-index: 1;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    z-index: 1;
+}
+

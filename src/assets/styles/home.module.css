@@ -1,0 +1,30 @@
+
+.type{
+    font-size: calc(2rem + 2vw);
+    z-index: 10;
+    color: aliceblue;
+    padding: 10% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+article{
+    z-index: 10;
+    color: aliceblue;
+}
+.typewrapper{
+    display: flex;
+}
+.Typewriter__cursor{
+    display: none;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+.socialicon{
+    width: 40px;
+}
