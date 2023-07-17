@@ -48,13 +48,13 @@ const Home = () => {
         </article>
 
         <div className={styles.social}>
-          <a href="">
+          <a href="https://github.com/Akshat2403">
             <FiGithub style={{ width: "40px" }} />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/akshat2403/">
             <FiLinkedin style={{ width: "40px" }} />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/akshat_2403/">
             <FiInstagram style={{ width: "40px" }} />
           </a>
         </div>
