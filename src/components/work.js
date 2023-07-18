@@ -16,9 +16,9 @@ const Work = ({ ref }) => {
       time: "2023",
     },
     {
-      name: "Jossa Data Analysis",
+      name: "Josaa Data Analysis",
       organisation: "Coding Club IIT Guwahati",
-      link: "https://github.com/Akshat2403/jossadataanalysis",
+      link: "https://github.com/Akshat2403/josaadataanalysis",
       time: "2023",
     },
     {
