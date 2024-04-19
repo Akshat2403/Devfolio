@@ -4,10 +4,22 @@ import ParticleHome from "../components/particlehome";
 const Work = ({ ref }) => {
   const projects = [
     {
-      name: "PassPortal",
+      name: "ScoobyStudy",
+      organisation: "V7 Associates",
+      link: "https://scoobystudy.vercel.app/",
+      time: "2024",
+    },
+    {
+      name: "Alcheringa.in",
+      organisation: "Alcheringa IIT Guwahati",
+      link: "https://alcheringa24.vercel.app/",
+      time: "2024",
+    },
+    {
+      name: "CardPortal",
       organisation: "Alcheringa IIT Guwahati",
       link: "https://card.alcheringa.in",
-      time: "2023",
+      time: "2024",
     },
     {
       name: "Echo",
@@ -22,6 +34,24 @@ const Work = ({ ref }) => {
       time: "2023",
     },
     {
+      name: "Registration Portal",
+      organisation: "Alcheringa IIT Guwahati",
+      link: "https://registration.alcheringa.in/",
+      time: "2023",
+    },
+    {
+      name: "Parliamentary Debate",
+      organisation: "Alcheringa IIT Guwahati",
+      link: "https://pd.alcheringa.in/",
+      time: "2023",
+    },
+    {
+      name: "Vogue Nation",
+      organisation: "Alcheringa IIT Guwahati",
+      link: "https://vogue.alcheringa.in/",
+      time: "2023",
+    },
+    {
       name: "Campus Ambassador",
       organisation: "Alcheringa IIT Guwahati",
       link: "https://ambassador.alcheringa.in",
@@ -33,12 +63,12 @@ const Work = ({ ref }) => {
       link: "https://rocko.alcheringa.in",
       time: "2022",
     },
-    {
-      name: "Alcheringa",
-      organisation: "Alcheringa IIT Guwahati",
-      link: "https://7e54be.alcheringa.in",
-      time: "2023",
-    },
+    // {
+    //   name: "Alcheringa",
+    //   organisation: "Alcheringa IIT Guwahati",
+    //   link: "https://7e54be.alcheringa.in",
+    //   time: "2023",
+    // },
   ];
   return (
     <div className={styles.wrapperflex} id="work" ref={ref}>
